@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+outputs/
+outputs_fast/
+*.mp4
+*.m4a
+*.mov
+.DS_Store
+
