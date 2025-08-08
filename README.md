@@ -16,7 +16,7 @@ pip install -r requirements.txt
 brew install ffmpeg
 ```
 
-3) Transcribe
+3) Transcribe (your file)
 
 ```bash
 python transcribe.py --input /path/to/video.mp4 --output-dir outputs --model large-v3
@@ -36,5 +36,16 @@ python transcribe.py --input /path/to/video.mp4 --output-dir outputs_fast --mode
 Notes
 - First run downloads the model (one-time). Fully offline after.
 - Uses faster-whisper with local ONNX/ctranslate2; no cloud calls.
+
+Demo
+
+```bash
+# fetch a small demo video
+./scripts/fetch_demo.sh
+
+# run on demo
+python transcribe.py --input assets/demo.mp4 --output-dir outputs_demo --model tiny --beam-size 1 --no-word-timestamps
+```
+
 
 
