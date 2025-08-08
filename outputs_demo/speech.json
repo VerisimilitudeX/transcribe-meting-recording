@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "model": "medium",
+    "language": "en",
+    "language_probability": 0.9784142971038818,
+    "media_duration_seconds": 10.32,
+    "beam_size": 1,
+    "vad_filter": true,
+    "word_timestamps": false,
+    "compute_type": "auto",
+    "source": "/Users/piyushacharya/Downloads/transcribe/assets/speech.mp4"
+  },
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 4.08,
+      "text": " This is a demo meeting recording with spoken words generated locally.",
+      "avg_prob": 0.4581210758834003,
+      "words": []
+    },
+    {
+      "id": 2,
+      "start": 4.08,
+      "end": 10.32,
+      "text": " It demonstrates the offline transcription pipeline with timestamps, captions, and a quality report.",
+      "avg_prob": 0.4581210758834003,
+      "words": []
+    }
+  ]
+}

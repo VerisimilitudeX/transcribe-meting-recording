@@ -1,0 +1,2 @@
+This is a demo meeting recording with spoken words generated locally.
+It demonstrates the offline transcription pipeline with timestamps, captions, and a quality report.

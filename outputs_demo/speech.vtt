@@ -1,0 +1,7 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.080
+This is a demo meeting recording with spoken words generated locally.
+
+00:00:04.080 --> 00:00:10.320
+It demonstrates the offline transcription pipeline with timestamps, captions, and a quality report.
